@@ -1,0 +1,25 @@
+:root{
+    --kk: red;
+    --grad: linear-gradient(135deg, #808080ff, #b3b3b3ff,#4c4c4cff);
+   --grad1: linear-gradient(135deg, #d2bfff22, #5b3bf922);
+    
+    --bg3: rgb(255, 255, 255);
+}
+
+.main-bg{
+justify-content: center;
+  align-items: center;
+    /*background-color: blue;*/
+   background-image: url( '/img/KKBS-logo.svg');
+     background-position: center;
+  background-repeat: no-repeat;
+      background-size: cover;
+
+    
+}
+.bg1{
+    background-color: orange
+}
+.bg2{
+    background-color: red
+}
