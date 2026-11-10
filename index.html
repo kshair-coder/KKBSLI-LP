@@ -5,76 +5,158 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Kut Kings BarberShop LI</title>
-    
 
-                    <!--update to live links to bootstrao repo to stay current-->
-                      <!--Bootstrap 5.3 -->
-                <link rel="stylesheet"  href="css/bootstrap.min.css" />
-            <!--AOS Animate on Scroll-->
-                <link rel="stylesheet" href="css/aos.css"  />
-                  <!--all min css -->
-                <link rel="stylesheet" href="css/all.min.css" />
-               <!--Style CSS-->
-                <link rel="stylesheet" href="css/style.css" />
-    
+        <!--update to live links to bootstrao repo to stay current-->
+        <!--Bootstrap 5.3 -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+        <!--all min css -->
+        <!--<link rel="stylesheet" href="css/all.min.css" />-->
+        <!--Style CSS-->
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
-        <div id="body" class="main-bg">
-            test
-            <h3>barebones LP for domain</h3>
-            <p>hosted on github for free</p>
-            <div style="width: 45%; border: 1px">Logo</div>
+        <div id="bg" class="main-bg">
+            <!--
+background image
+-->
+        </div>
+        <div id="bg-cont" class="sub-bg">
+            <!--
+runner background for text
+-->
+        </div>
+        <section id="Header" class="text-center">
+            <div id="Shop" style="z-index: 1">
+                <p id="Name">
+                    Kut Kings Barber Shop <br />
+                    <span id="est">Est. 1998</span>
+                </p>
+            </div>
+            
+        </section>
+        <section id="adress" class="text-center">
+            <div style="z-index: 1">
+                <span class="slbl">Address</span>
+
+                <p class="">91 Howells Rd <br />Bay Shore, NY 11706</p>
+            </div>
+
+            <div id="hours" style="z-index: 1">
+                <span class="slbl">Hours</span>
+
+                <div>
+                    <span class="hrsday"
+                        ><i class="fas fa-calendar-day me-2" style="color: var(--secondary)"></i>Monday - Saturday</span
+                    >
+                    <br />
+
+                    <span class="hrstime" style="color: #015714">09:00 AM - 8:00 PM</span>
+                </div>
+                <div>
+                    <span class="hrsday"
+                        ><i class="fas fa-calendar-day me-2" style="color: var(--secondary)"></i>Sunday</span
+                    >
+
+                    <br />
+                    <span class="hrstime" style="color: #015714">10:00 AM - 7:00 PM</span>
+                </div>
+            </div>
+        </section>
+        <section id="appts" class="text-center">
+            <span class="slbl">Book Now</span>
+            <!-- Book Now Button -->
             <div>
-                Informaiton
-                <div id="hours">
-                    hours
-                    <h3><span class="gt">Hours</span></h3>
-                    <div id="btnsInsta0">
-                        <span class="hrsday"
-                            ><i class="fas fa-calendar-day me-2" style="color: var(--secondary)"></i>Monday -
-                            Saturday</span
-                        >
-                        <div class="align-items-center gap-2">
-                            <div class="hdot on"></div>
-                            <span class="hrstime" style="color: #048c21">09:00 AM - 8:00 PM</span>
-                        </div>
+                <a id="btnBk" href="http://kutkings3.booksy.com" target="_blank" class="btn-links btn">Booksy</a>
+            </div>
 
-                        <div class="brk"></div>
+            <!-- Book Now Button END-->
+        </section>
 
-                        <span class="hrsday"
-                            ><i class="fas fa-calendar-day me-2" style="color: var(--secondary)"></i>Sunday</span
-                        >
-                        <div class="align-items-center gap-2">
-                            <div class="hdot off"></div>
-                            <span class="hrstime" style="color: #048c21">10:00 AM - 7:00 PM</span>
-                        </div>
-                    </div>
+        <section id="contact" class="text-center">
+            <div style="z-index: 1">
+                <span class="slbl">Contact</span>
+
+                <div id="Phone" class="gap1">
+                    <a id="btnCall" class="btn-links btn" href="tel:+16316473788" target="_blank"
+                        >Call/Text (631) 647-3788</a
+                    >
                 </div>
 
-                <div>adress</div>
+                <div id="socials">
+                    <a id="btnSoc" class="btn-links btn" href="https://www.instagram.com/kutkingsbbsli" target="_blank"
+                        >Insta: KutKingsBBSLI</a
+                    >
+                </div>
             </div>
+        </section>
 
-            <div>Call button</div>
+        <!-- Services -->
+        <section id="services" class="text-center">
+            <!---->
 
-            <div>
-                <h2>Booking Link(s)</h2>
-                <button>Booksy</button>
+            <div style="z-index: 1">
+                <span class="slbl">Services</span>
+                <h2 class="h2 afu"></h2>
+
+                <table class="srvmenu">
+                    <tr>
+                        <td class="srvmenu">Adult Haircut</td>
+                        <td class="srvmenuprc">$35</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Adult Haircut w/ Shave</td>
+                        <td class="srvmenuprc">$40</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Children's Haircut (under 15)</td>
+                        <td class="srvmenuprc">$25</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Lineup / Shape Up</td>
+                        <td class="srvmenuprc">$20</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">
+                            <p clacc="subsrvmenu">
+                                Lineup / Shape Up <br />
+                                Children's Haircut (under 15)
+                            </p>
+                        </td>
+                        <td class="srvmenuprc">$15</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Haircut W Full Shave</td>
+                        <td class="srvmenuprc">$60</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Full Shave</td>
+                        <td class="srvmenuprc">$30</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Razor Add-On</td>
+                        <td class="srvmenuprc">$5</td>
+                    </tr>
+
+                    <tr>
+                        <td class="srvmenu">Hair Wash</td>
+                        <td class="srvmenuprc">$10-15</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">Enhancements</td>
+                        <td class="srvmenuprc">$5</td>
+                    </tr>
+                    <tr>
+                        <td class="srvmenu">
+                            Eyebrow Shaping <br />
+                            / Lines
+                        </td>
+                        <td class="srvmenuprc">$5+</td>
+                    </tr>
+                    <tr></tr>
+                </table>
             </div>
-            <div>
-                <h2>Barbers</h2>
-                <h4>J</h4>
-                <h4>M</h4>
-                <h4>K</h4>
-                <h4>K</h4>
-                <h4>D</h4>
-                <h4>T</h4>
-                <h4>OG</h4>
-                carousel of profiles
-                <br />
-                some videos eventually
-            </div>
-        </div>
-        <footer></footer>
+        </section>
 
         <!-- ======================== SCRIPTS ======================== -->
         <!-- jQuery -->
