@@ -1,25 +1,308 @@
-:root{
-    --kk: red;
-    --grad: linear-gradient(135deg, #808080ff, #b3b3b3ff,#4c4c4cff);
-   --grad1: linear-gradient(135deg, #d2bfff22, #5b3bf922);
-    
+:root {
+    --kk: #800;
+    --kk3: radial-gradient(circle, #700 70%, #a10000ff 100%);
+    --kk2: radial-gradient(circle, #600000 10%, #900000 100%);
+    --kk1: linear-gradient(135deg, #800000ff 20%, #b3b3b3ff, #800000ff 35%, #800000ff 65%, #b3b3b3ff, #800000ff 85%);
+    --kk4: linear-gradient(105deg, #b3b3b3ff 35%, #800000ff 45%, #800000ff 55%, #b3b3b3ff, #800000ff 95%);
+    --slvr1: linear-gradient(
+        135deg,
+        #b4b8bb 0%,
+        #b7bbbe 4.2%,
+        #bbbec1 8.3%,
+        #bec1c4 12.5%,
+        #c1c5c7 16.7%,
+        #c5c8ca 20.8%,
+        #c8cbcd 25%,
+        #cbced0 29.2%,
+        #cfd1d4 33.3%,
+        #d2d4d7 37.5%,
+        #d5d8da 41.7%,
+        #d9dbdd 45.8%,
+        #dcdee0 50%,
+        #d8dadc 54.2%,
+        #d3d5d8 58.3%,
+        #cfd1d3 62.5%,
+        #cacdcf 66.7%,
+        #c6c8cb 70.8%,
+        #c2c4c7 75%,
+        #bdc0c3 79.2%,
+        #b9bcbe 83.3%,
+        #b5b8ba 87.5%,
+        #b0b3b6 91.7%,
+        #acafb2 95.8%,
+        #a8abae 100%
+    );
+
+    --slvr2: repeating-radial-gradient(circle, #b0b0b0ee 0%, #e0e0e0 50%, #adadadee 100%);
+
+    --slvrbrush {
+        background: linear-gradient(
+            135deg,
+            #b4b8bb 0%,
+            #b7bbbe 4.2%,
+            #bbbec1 8.3%,
+            #bec1c4 12.5%,
+            #c1c5c7 16.7%,
+            #c5c8ca 20.8%,
+            #c8cbcd 25%,
+            #cbced0 29.2%,
+            #cfd1d4 33.3%,
+            #d2d4d7 37.5%,
+            #d5d8da 41.7%,
+            #d9dbdd 45.8%,
+            #dcdee0 50%,
+            #d8dadc 54.2%,
+            #d3d5d8 58.3%,
+            #cfd1d3 62.5%,
+            #cacdcf 66.7%,
+            #c6c8cb 70.8%,
+            #c2c4c7 75%,
+            #bdc0c3 79.2%,
+            #b9bcbe 83.3%,
+            #b5b8ba 87.5%,
+            #b0b3b6 91.7%,
+            #acafb2 95.8%,
+            #a8abae 100%
+        );
+        background: linear-gradient(in oklch 135deg, #b4b8bb 0%, #dcdee0 50%, #a8abae 100%);
+    }
+
+    --slvrglow {
+        background: radial-gradient(
+            circle,
+            #f1f2f3 0%,
+            #e9eaec 8.3%,
+            #e1e3e4 16.7%,
+            #d9dbdd 25%,
+            #d1d4d6 33.3%,
+            #c9cccf 41.7%,
+            #c1c5c8 50%,
+            #babdc1 58.3%,
+            #b2b6ba 66.7%,
+            #aaafb3 75%,
+            #a3a7ac 83.3%,
+            #9ba0a5 91.7%,
+            #94999e 100%
+        );
+        background: radial-gradient(circle in oklch, #f1f2f3 0%, #94999e 100%);
+    }
+
+    --slvrchrome {
+        background: linear-gradient(
+            180deg,
+            #edeff0 0%,
+            #e2e4e5 4.2%,
+            #d6d9db 8.3%,
+            #cbced0 12.5%,
+            #c0c4c6 16.7%,
+            #b5b9bc 20.8%,
+            #aaafb1 25%,
+            #a0a4a7 29.2%,
+            #959a9d 33.3%,
+            #8b9094 37.5%,
+            #81868a 41.7%,
+            #777c80 45.8%,
+            #6d7277 50%,
+            #74797e 54.2%,
+            #7c8185 58.3%,
+            #83888d 62.5%,
+            #8b9094 66.7%,
+            #93979b 70.8%,
+            #9b9fa3 75%,
+            #a3a6aa 79.2%,
+            #abaeb2 83.3%,
+            #b3b6ba 87.5%,
+            #bbbec1 91.7%,
+            #c3c6c9 95.8%,
+            #cbced1 100%
+        );
+        background: linear-gradient(in oklch 180deg, #edeff0 0%, #6d7277 50%, #cbced1 100%);
+    }
+
+    --slvr1 {
+        /*background: #e6e6e6;*/
+        background: radial-gradient(
+            circle,
+            rgba(230, 230, 230, 1) 5%,
+            rgba(161, 161, 161, 1) 24%,
+            rgba(217, 217, 217, 0.85) 58%,
+            rgba(153, 153, 153, 0.96) 93%
+        );
+    }
+
+    /**/
+
+    /**/
+
+    --slvr3: linear-gradient(in oklch 135deg, #b4b8bb 0%, #dcdee0 50%, #a8abae 100%);
+
+    --slvr3: linear-gradient(135deg, #808080ff, #b3b3b3ff, #4c4c4cff);
+    --grad1: linear-gradient(135deg, #d2bfff22, #5b3bf922);
+
     --bg3: rgb(255, 255, 255);
 }
 
-.main-bg{
-justify-content: center;
-  align-items: center;
-    /*background-color: blue;*/
-   background-image: url( '/img/KKBS-logo.svg');
-     background-position: center;
-  background-repeat: no-repeat;
-      background-size: cover;
+/*p{color:white;}*/
 
-    
+.test1 {
+    background: var(--grad12);
 }
-.bg1{
-    background-color: orange
+.slvr1 {
+    background: var(--slvr);
+    color: white;
 }
-.bg2{
-    background-color: red
+
+.main-bg {
+    position: absolute;
+    /*make it scroll with the page*/
+    width: 100%;
+    height: 150%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/KKBS-logo-stamp-blkrd.png");
+    /*opacity:.8;*/
+    /*background-color: #00007833;*/
+    /*background-image: url( '../img/KKBS-logo-stamp.svg');*/
+    /*background-blend-mode:lighten;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -3;
+}
+.sub-bg {
+    /*centeres the bar*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /*centeres the bar*/
+
+    width: 70%;
+    height: 200%;
+    opacity: .8;
+    background: var(--slvr2);
+    /*background: #636363dd;*/
+    /*background:var(--kk4);*/
+    z-index: -1;
+}
+.bg1::before {
+    opacity: 0.4;
+    background: yellow;
+    /*background: var(--grad12);*/
+    /*background: var(--slvrbrush); */
+}
+.bg1 {
+    background-color: red;
+}
+
+.slbl {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.73rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--kk);
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.srvmenu {
+    font-family: Montserrat, system-ui, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: manual;
+    color: var(--kk);
+    margin-left: auto;
+    margin-right: auto;
+}
+.srvmenuprc {
+    color: var(--kk2);
+    font-size: 14px;
+}
+table {
+    border: 10px;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: var(--slvr1);
+}
+
+.btn-links {
+    padding: 10px 14px !important;
+    border-radius: 8px;
+    transition: 0.2s !important;
+}
+#Shop {
+    /*background: var(--grad12);*/
+    /*background: var(--slvrbrush); */
+    font-family:'Times New Roman';
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: 32px;
+    color: var(--kk);
+    line-height: 70%;
+    /*padding-bottom: 50px;*/
+}
+#spaced1 {
+    /*spaes before line*/
+    line-height: 10%;
+}
+#est {
+    /*span inside #Name*/
+    font-size: 14px;
+
+    line-height: 80%;
+}
+
+.btnCall {
+    /*background:var(--slvr1);*/
+    /*background:orange;*/
+}
+
+.btnCall:link,
+.btnCall:visited {
+    background: var(--slvr1);
+    color: var(--kk);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btnCall:hover,
+.btnCall:active {
+    background: gray;
+    color: var(--kk);
+}
+
+.btn:link,
+.btn:visited {
+    background: var(--kk3);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn:hover,
+.btn:active {
+    background: var(--slvr1);
+    color: var(--kk);
+}
+
+.gap1 {
+    padding-bottom: 10px;
+}
+
+.test1 {
+    background: var(--kk3);
 }
